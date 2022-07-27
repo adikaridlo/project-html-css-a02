@@ -31,7 +31,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://img.freepik.com/free-psd/online-shopping-with-laptop-mockup-template-shopping-elements_1150-38896.jpg?w=740&t=st=1658886737~exp=1658887337~hmac=8d8062d22f18bef0e8fafabc9af020b0dd024f054f9f4f6a5ac5e9d1be5c8e3e);
   background-size: cover;
   color: white;
   text-align: center;
@@ -98,8 +98,9 @@ header {
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 45px;
+  margin-top: 11px;
+  color: white;
 }
 
 .header-left {
@@ -147,15 +148,54 @@ header {
   width: 25%;
 }
 
+tr,th,td{
+  text-align: left;
+  border-top: 1px solid gray;
+  padding: 5px;
+}
+
 .lesson-icon {
   position: relative;
 }
 
+.lesson-icon img{
+  width: 200px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
 .lesson-icon p {
   position: absolute;
-  top: 44%;
+  top: 85%;
   width: 100%;
   color: white;
+}
+
+.label-toko{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #305a63;
+}
+
+.lesson-icon:hover img {
+  opacity: 0.3;
+}
+
+.lesson-icon:hover .label-toko {
+  opacity: 1;
+}
+
+.label-toko {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .txt-contents {
@@ -178,12 +218,26 @@ header {
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: rgba(34, 49, 52, 0.9);
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  box-shadow: 0 7px #0c343d;
 }
 
 .message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn-beli {
+  width: 100%;
+  padding: 11px 40px;
+  background-color: #38761d;
+  cursor: pointer;
+  box-shadow: 0 7px #1c3b0e;
+}
+
+.btn-beli:active {
   position: relative;
   top: 7px;
   box-shadow: none;
