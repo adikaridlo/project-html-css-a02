@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+p,
+ul,
+il,
+ol,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(255, 199, 44);
+    height: 60px;
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    color: black;
+    line-height: 60px;
+    padding: 0 30px;
+    display: block;
+    float: left;
+    transition: all 0.6s;
+}
+
+.header-right a:hover {
+    color: rgb(255, 199, 44);
+    background-color: black;
+}
+
+contents {
+    margin-top: 80px;
+}
+
+.top-wrapper {
+    padding: 180px 100px;
+    background-image: url(https://www.haltech.com/wp-content/uploads/2022/07/thumb_delorean-3.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.top-wrapper h1 {
+    font-size: 50px;
+    margin-bottom: 2px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+.cssanimation,
+.cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span {
+    display: inline-block
+}
+
+.hu__hu__ {
+    animation: hu__hu__ infinite 2s ease-in-out
+}
+
+@keyframes hu__hu__ {
+    50% {
+        transform: translateY(30px)
+    }
+}
+
+.top-wrapper p {
+    margin-bottom: 4px;
+    margin-top: 20px;
+    opacity: 0.7;
+    text-shadow: 0 2px 0 black;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: rgb(255, 199, 44);
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.email {
+    background-color: #239b76;
+}
+
+.google {
+    background-color: #f2f2f2;
+    margin-right: 10px;
+}
+
+.g {
+    color: #4285F4;
+}
+
+.oe {
+    color: #DB4437;
+}
+
+.o {
+    color: #F4B400;
+}
+
+.l {
+    color: #0F9D58;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn:hover {
+    opacity: 1;
+}
