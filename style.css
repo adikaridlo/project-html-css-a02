@@ -146,11 +146,6 @@ header {
 .lesson {
   float: left;
   width: 25%;
-  background-color: white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  padding: 11px;
-  border-radius: 5px;
-  margin: 3px;
 }
 
 tr,th,td{
@@ -271,30 +266,49 @@ footer {
   display: none;
 }
 
-#menu-tablet{
-  position: relative;
-  z-index: 15;
-  display: none;
-}
-.menu-item{
-  width: 100%;
-  background-color: #b3aeb5;
-}
-.menu-item{
-  background-color: #38761d;
-}
-.menu-item a{
-  display: block;
-  cursor: pointer;
-  margin: 1px;
-  color: white;
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+      font-size: 32px;
+  }
+  .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+  }
+  .heading h2 {
+      font-size: 20px;
+  }
 }
 
-.iklan-vertical{
-  position: relative;
-  right: 0;
-  top:50;
-  z-index: 20;
-  float: right;
-
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  .top-wrapper {
+      text-align: left;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .btn {
+      width: 100%;
+  }
+  .facebook {
+      margin-bottom: 10px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+}
+ .menu-icon {
+    display: block;
+ }
+ .lesson {
+    width: 100%;
+}
+footer {
+    text-align: center;
+}
 }
