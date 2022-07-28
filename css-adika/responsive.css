@@ -3,10 +3,11 @@
   .top-wrapper h1 {
       font-size: 32px;
   }
-  .lesson {
+  
+  /* .lesson {
       width: 50%;
       margin-bottom: 50px;
-  }
+  } */
   .heading h2 {
       font-size: 20px;
   }
@@ -38,7 +39,8 @@
     display: block;
  }
  .lesson {
-    width: 100%;
+   flex-basis: 100%;
+    width: 100%!important;
 }
 footer {
     text-align: center;
