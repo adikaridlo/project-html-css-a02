@@ -97,12 +97,15 @@
         border-right: none;
         margin-bottom: 10px;
     }
+
     .bg-text h1 {
         letter-spacing: 3px;
     }
+
     .bg-text h3 {
         letter-spacing: 2px;
-        font-size: 16px;
+        font-size: 14px;
+        font-weight: 100;
     }
 
 

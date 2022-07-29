@@ -60,12 +60,14 @@ a {
     width: 80%;
     padding: 20px;
     text-align: center;
+    border-radius: 25px;
 
 }
 
 .bg-text h1 {
     letter-spacing: 6px;
 }
+
 .bg-text h3 {
     letter-spacing: 2px;
 }
@@ -113,6 +115,10 @@ a {
     background-color: #55acee;
 }
 
+.buy {
+    background-color: #239b76;
+}
+
 .btn {
     padding: 12px 24px;
     color: white;
@@ -129,27 +135,37 @@ a {
 .fa-brands {
     margin-right: 5px;
 }
-.typewriter{
+
+.typewriter {
     display: inline-flex;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing:0; /* Adjust as needed */
+    letter-spacing: 0; /* Adjust as needed */
     animation: typing 3s steps(55, end), blink-caret .5s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-    from { width: 0 }
-    to { width: 55% }
+    from {
+        width: 0
+    }
+    to {
+        width: 55%
+    }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black;
+    }
 }
+
 header {
     height: 65px;
     width: 100%;
@@ -223,6 +239,16 @@ header {
     color: white;
 }
 
+.lesson-icon img {
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.lesson-icon button {
+    color: black;
+}
+
 .txt-contents {
     width: 80%;
     display: inline-block;
@@ -275,4 +301,9 @@ footer {
     font-size: 25px;
     padding: 21px 0;
     display: none;
+}
+
+.footer-text {
+    background: rgba(118, 118, 205, 0.7);
+    background: linear-gradient(95deg, rgba(118, 118, 205, 1) 50%, rgba(0, 212, 255, 1) 100%);
 }
