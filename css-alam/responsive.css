@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+    heading h2 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+}
+
+
+
+@media (max-width: 670px) {
+    
+    .contents-item {
+        margin-right: 30px;
+      }
+      
+}
