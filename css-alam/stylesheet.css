@@ -126,3 +126,62 @@ input, textarea {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
 }
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: rgba(34, 49, 52, 0.9);
+  cursor: pointer;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
