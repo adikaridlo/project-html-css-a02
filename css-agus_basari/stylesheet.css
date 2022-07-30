@@ -59,6 +59,7 @@ a {
     display: block;
     float: left;
     transition: all 0.6s;
+    font-weight: 700;
 }
 
 .header-right a:hover {
@@ -66,55 +67,49 @@ a {
     background-color: black;
 }
 
+.menu-icon {
+    float: right;
+    color: black;
+    font-size: 25px;
+    display: none;
+    line-height: 60px;
+}
+
+
 contents {
     margin-top: 80px;
 }
 
 .top-wrapper {
     padding: 180px 100px;
-    background-image: url(https://www.haltech.com/wp-content/uploads/2022/07/thumb_delorean-3.jpg);
+    /* background-image: url(https://www.haltech.com/wp-content/uploads/2022/07/thumb_delorean-3.jpg); */
+    background-image: url(https://s1.cdn.autoevolution.com/images/news/gallery/a-comprehensive-look-at-the-legendary-toyota-2jz-engine_3.jpg);
     background-size: cover;
+    background-position: center center;
     text-align: center;
     color: white;
+    margin-bottom: 15px;
 }
 
 .top-wrapper h1 {
+    color: rgb(255, 199, 44);
     font-size: 50px;
     margin-bottom: 2px;
     letter-spacing: 1px;
     opacity: 0.7;
 }
 
-.cssanimation,
-.cssanimation span {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-
-.cssanimation span {
-    display: inline-block
-}
-
-.hu__hu__ {
-    animation: hu__hu__ infinite 2s ease-in-out
-}
-
-@keyframes hu__hu__ {
-    50% {
-        transform: translateY(30px)
-    }
-}
-
 .top-wrapper p {
+    font-size: 21px;
     margin-bottom: 4px;
-    margin-top: 20px;
-    opacity: 0.7;
-    text-shadow: 0 2px 0 black;
+    margin-top: 40px;
+    opacity: 0.9;
+    text-shadow: 1px 2px 3px black;
 }
 
 .btn-wrapper {
     text-align: center;
-    margin: 20px 0;
+    margin: 60px 0;
 }
 
 .btn-wrapper p {
@@ -128,6 +123,7 @@ contents {
     opacity: 0.8;
     border-radius: 4px;
     text-align: center;
+    font-weight: 700;
 }
 
 .email {
@@ -166,4 +162,249 @@ contents {
 
 .btn:hover {
     opacity: 1;
+    text-shadow: 0 1px 0 black;
+}
+
+.product_items {
+    padding: 60px;
+}
+
+.product_items .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_item {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.product_item-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.product_item-image {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+.product_item-image a {
+    transition: all 0.3s ease;
+}
+
+.product_item-image img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.product_item-desc {
+    padding: 0 20px;
+}
+
+.product_item-code {
+    font-size: 13px;
+    color: #707070;
+    line-height: 15px;
+    margin: 0 0 13px;
+}
+
+.product_item-title {
+    height: 80px;
+}
+
+.product_item-title a {
+    color: #000;
+    font-weight: 700;
+}
+
+.product_item-price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+    margin: 0 0 6px;
+}
+
+.product_item-price span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    margin: 0 0 6px;
+}
+
+.product_item-btn {
+    display: flex;
+    align-items: flex-start;
+    padding: 19px;
+    background: #f8f8f8;
+    margin: 0 -20px;
+}
+
+.product_item-btn a {
+    text-align: center;
+    background: #167c0c;
+    border-radius: 4px;
+    padding: 14px 10px;
+    width: 100%;
+    height: 48px;
+    margin: 0;
+}
+
+.buy {
+    color: white;
+}
+
+.online_survey {
+    background-image: url(https://www.haltech.com/wp-content/uploads/2022/04/LowerBanner_subscribe-2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.online_survey-background img {
+    vertical-align: middle;
+}
+
+.online_survey .container {
+    position: relative;
+    min-height: 26.625rem;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    z-index: 1;
+}
+
+.online_survey-text h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    color: #fff;
+    margin: 0 0 22px;
+}
+
+.online_survey-text p {
+    max-width: 24.5625rem;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    color: #fff;
+    margin: 0 0 22px;
+}
+
+.survey {
+    opacity: 1;
+    text-shadow: none;
+    background: rgb(255, 199, 44);
+    border-radius: 4px;
+    color: #000;
+    font-size: rem("font-size", 15);
+    height: 2.875rem;
+    line-height: 22px;
+    min-width: 10.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.survey:hover {
+    background-color: #fff;
+    text-shadow: none;
+}
+
+footer {
+    background-color: #000;
+    height: 200px;
+}
+
+.contact_links {
+    box-sizing: content-box;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.social li {
+    margin: 0 16px;
+}
+
+.social a {
+    font-size: 25px;
+    color: rgb(255, 199, 44);
+}
+
+.social a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0 0;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    /* padding: 32px 32px 0; */
+    flex-direction: column;
+}
+
+.footer-bottom p {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.logo-footer img {
+    filter: invert(100%);
+    max-width: 162px;
+    display: block;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: rgb(255, 199, 44);
+    display: block;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.copyright a:hover {
+    color: white;
+}
+
+.copyright ul {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.copyright ul>il {
+    position: relative;
+}
+
+.copyright li {
+    display: inline-block;
 }
