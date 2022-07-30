@@ -10,7 +10,7 @@
 }
 .lesson {
   flex-basis: 100%;
-  width: 250px;
+  width: 310px;
 }
 
 .menu-icon:active{
@@ -57,11 +57,11 @@
     100% {opacity: 0;}
 }
 @keyframes example {
-    0%   {background: rgba(102, 0, 0, 1); left:0px; top:0px;z-index: 21;}
-    25%  {background: rgba(293, 255, 0, 1); left:0px; top:0px;z-index: 21;}
-    50%  {background: rgba(36, 79, 118, 1); top:0px;z-index: 21;}
-    75%  {background: rgba(5, 142, 28, 1); top:0px;z-index: 21;}
-    100% {background: rgba(225, 224, 0, 1); top:0px;z-index: 21;}
+    0%   {background: rgba(102, 0, 0, 0.9); left:0px; top:0px;z-index: 21;}
+    25%  {background: rgba(293, 255, 0, 0.7); left:0px; top:0px;z-index: 21;}
+    50%  {background: rgba(36, 79, 118, 0.5); top:0px;z-index: 21;}
+    75%  {background: rgba(5, 142, 28, 0.3); top:0px;z-index: 21;}
+    100% {background: rgba(225, 224, 0, 0); top:0px;z-index: 21;}
 }
 
 /* welcome toko */
